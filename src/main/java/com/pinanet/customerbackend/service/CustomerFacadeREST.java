@@ -24,7 +24,7 @@ import javax.ws.rs.Produces;
  * @author pinarodrigo
  */
 @Stateless
-@Path("com.pinanet.customerbackend.customer")
+@Path("customers")
 public class CustomerFacadeREST extends AbstractFacade<Customer> {
     @PersistenceContext(unitName = "com.pinanet_CustomerBackend_war_1.0-SNAPSHOTPU")
     private EntityManager em;
