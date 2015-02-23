@@ -33,6 +33,7 @@ public class ApplicationConfig extends Application {
         resources.add(com.pinanet.customerbackend.service.CustomerFacadeREST.class);
         resources.add(com.pinanet.customerbackend.service.DiscountCodeFacadeREST.class);
         resources.add(com.pinanet.customerbackend.service.MicroMarketFacadeREST.class);
+        resources.add(com.pinanet.newsintegration.NewsFacadeREST.class);
     }
     
 }

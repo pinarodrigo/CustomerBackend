@@ -24,7 +24,7 @@ import javax.ws.rs.Produces;
  * @author pinarodrigo
  */
 @Stateless
-@Path("com.pinanet.customerbackend.micromarket")
+@Path("micromarket")
 public class MicroMarketFacadeREST extends AbstractFacade<MicroMarket> {
     @PersistenceContext(unitName = "com.pinanet_CustomerBackend_war_1.0-SNAPSHOTPU")
     private EntityManager em;

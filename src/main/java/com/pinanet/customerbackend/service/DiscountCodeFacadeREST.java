@@ -24,7 +24,7 @@ import javax.ws.rs.Produces;
  * @author pinarodrigo
  */
 @Stateless
-@Path("com.pinanet.customerbackend.discountcode")
+@Path("discountcode")
 public class DiscountCodeFacadeREST extends AbstractFacade<DiscountCode> {
     @PersistenceContext(unitName = "com.pinanet_CustomerBackend_war_1.0-SNAPSHOTPU")
     private EntityManager em;
